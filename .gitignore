@@ -1,0 +1,38 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# If you use collectstatic for deployment
+/static/
+
+# Environment & secrets
+.env
+*.env
+.env.*
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage & testing
+.coverage
+htmlcov/
+.tox/
